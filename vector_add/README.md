@@ -38,3 +38,7 @@ Run
    ```c
       cudaMemcpy(res, res_gpu, sizeof(float) * N, cudaMemcpyDeviceToHost);
    ```
+ - Free memory
+   ```c
+      cudaFree(a_gpu);
+   ```
