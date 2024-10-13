@@ -3,7 +3,7 @@
 ![GPU & GPU Arch](https://github.com/wzhongyuan/cuda-learning/blob/main/gpu-architecture/Cpu-gpu.svg.png)
 
 主要区别
-- CPU 有控制模块，GPU没有
+- CPU 有复杂控制模块，GPU比较简单
 - CPU 的计算单元(ALU, core) 大，但是数目少
 - GPU 的计算单元小，但数目多
 - CPU 计算单元更快更聪明，性能越来越好得益于更快的主频，更聪明体现在乱序执行能力上。
