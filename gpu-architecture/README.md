@@ -19,5 +19,6 @@
 
 但是实际上可以通过并行的方式来求和（reduce）
 
+![Parallel Sum](https://github.com/wzhongyuan/cuda-learning/blob/main/gpu-architecture/parallel%20sum.png)
 
 ### SM 架构和多线程模型
