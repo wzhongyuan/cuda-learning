@@ -31,4 +31,4 @@ GPU的解决办法就是 SM 架构。
 
 ![SM arch](https://github.com/wzhongyuan/cuda-learning/blob/main/gpu-architecture/SM%20arch.png)
 
-SM架构中，一个GPU 分成多个SM，每一个SM 是由一组不同的计算核心(FP32, FP64, INTEGER, TENSOR CORE)，同一个SM里的计算核心共享L1 Cache/Shared memory，不同SM 共享L2 Cache/Shared memory， 也共享GMEM(global memory)。
+SM架构中，一个GPU 分成多个SM，每一个SM 是由一组不同的计算核心(FP32, FP64, INTEGER, TENSOR CORE)，同一个SM里的计算核心共享L1 Cache/Shared memory，不同SM 共享L2 Cache/Shared memory， 也共享GMEM(global memory)。RT CORE 是用来加速光线追踪的计算单元。
