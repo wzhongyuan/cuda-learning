@@ -22,6 +22,7 @@
 ![Parallel Sum](https://github.com/wzhongyuan/cuda-learning/blob/main/gpu-architecture/parallel%20sum.png)
 
 从GPU core 的执行上来说，如下图所示
+
 ![Core Sum](https://github.com/wzhongyuan/cuda-learning/blob/main/gpu-architecture/core%20parallelism.png)
 
 
