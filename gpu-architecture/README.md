@@ -10,3 +10,7 @@
 - GPU 的计算受功耗和算热的影响，因为计算单元太多，GPU的特色能力就是做乘加(MAD)操作，或者融合乘加(FMA)操作。现在的GPU也可以做张量计算(Tensor Core) 以及光线追踪(Ray tracing)等操作。
 
 所以，GPU的能力不是强大的计算单元，而是大规模并行处理能力。故SIMD(Single instruction multiple data) 型应用适合GPU。
+
+## GPU的SM(Streaming multi processor)架构
+### 从一个具体应用开始
+### SM 架构和多线程模型
