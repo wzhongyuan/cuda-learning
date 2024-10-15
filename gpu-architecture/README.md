@@ -15,4 +15,9 @@
 ### 从一个具体应用开始
 对一个包含8个元素的数组进行求和，在单核CPU的CPU模型里，就是一个顺序执行的过程，如下图。
 
+![Sequential Sum](https://github.com/wzhongyuan/cuda-learning/blob/main/gpu-architecture/Screenshot%202024-10-15%20at%2019.28.29.png)
+
+但是实际上可以通过并行的方式来求和（reduce）
+
+
 ### SM 架构和多线程模型
