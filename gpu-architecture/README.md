@@ -25,5 +25,5 @@
 
 ![Core Sum](https://github.com/wzhongyuan/cuda-learning/blob/main/gpu-architecture/core%20parallelism.png)
 
-
+这种并行方式带来的诉求：需要一个**共享内存(Shared memory) 来存储和访问中间变量和中间结果**。而对于一个GPU来说，可能有几千个核心来，这就使得**core之间协调变得很难，代价也很高**。
 ### SM 架构和多线程模型
