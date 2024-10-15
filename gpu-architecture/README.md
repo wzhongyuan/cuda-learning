@@ -28,3 +28,7 @@
 这种并行方式带来的诉求：需要一个**共享内存(Shared memory) 来存储和访问中间变量和中间结果**。而对于一个GPU来说，可能有几千个核心来，这就使得**core之间协调变得很难，代价也很高**。这是因为通常GPU里，都需要通过一些技术手段来解决core之间协调共享数据的。比如**缓存一致性协议**、**硬件同步原语**、**内存屏障**等等。
 GPU的解决办法就是 SM 架构。
 ### SM 架构和多线程模型
+
+![SM arch](https://github.com/wzhongyuan/cuda-learning/blob/main/gpu-architecture/SM%20arch.png)
+
+SM架构中，一个GPU 分成多个SM，每一个SM 是由一组不同的计算核心(FP32, FP64, INTEGER, TENSOR CORE)，同一个SM里的计算核心共享L1 Cache/Shared memory，不同SM 共享L2 Cache/Shared memory， 也共享GMEM(global memory)。
